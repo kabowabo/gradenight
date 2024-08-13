@@ -1,0 +1,12 @@
+:root {
+	--bg-color-1: #957DAD;
+	--bg-color-1-5: #B9A1D2;
+	--bg-color-2: #E0BBE4;
+	--bg-color-2-5: #E7CCE9;
+	--bg-color-3: #FEC8D8;
+	--bg-color-3-5: #FFDFD3;
+	--font-color-3: hsl(300deg 20% 35%);
+	--font-color-2: hsl(330deg 40% 70%);
+	--font-color: hsl(330deg 100% 95%);
+	--accent-color: hsl(340deg 100% 85%);
+}
