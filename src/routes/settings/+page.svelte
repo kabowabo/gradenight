@@ -55,7 +55,7 @@
 			/>
 			<button
 				class={'theme' + ($settings.theme === 'glass' ? ' active' : '')}
-				style="background: linear-gradient(45deg, #567EC1 0% ,#bd5077 100%);"
+				style="background: linear-gradient(45deg, hsl(240deg 60% 30%) 0%, hsl(340deg 100% 50%) 100%);"
 				on:click={() => changeSetting('theme', 'cyberpunk')}
 			/>
 		</div>
