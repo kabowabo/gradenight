@@ -5,7 +5,7 @@
 	import { oldAssignments } from '$lib/stores/oldAssignments.js'
 	import Spinner from '$lib/components/Spinner.svelte'
 
-	let districtUrl = 'https://wa-bsd405-psv.edupoint.com/'
+	let districtUrl = 'https://ca-pleas-psv.edupoint.com/'
 	let username
 	let password
 	let error
