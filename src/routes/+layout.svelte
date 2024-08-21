@@ -10,7 +10,7 @@
 	import { settings } from '$lib/stores/settings.js'
 	import { oldAssignments } from '$lib/stores/oldAssignments.js'
 	import Spinner from '$lib/components/Spinner.svelte'
-	import { BellOutline } from 'flowbite-svelte-icons';
+	
 
 	export let data
 
@@ -80,8 +80,7 @@
 				<i class="bi bi-list-ol" />
 			</a>
 			<a class:active={$page.url.pathname === '/assignments'} href="/assignments">
-				//<i class="bi bi-pen" />
-				<BellOutline class="focus:outline-none" />
+				<i class="bi bi-pen" />
 			</a>
 			<button class={'refresh' + (spinning ? ' spinning' : '')} on:click={refresh}>
 				<i class="bi bi-arrow-repeat" />
